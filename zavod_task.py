@@ -1,3 +1,6 @@
+import pandas as pd
+import numpy as np
+
 zavod_data = pd.read_csv("./data/task_2_data_ex.csv")
 
 zavod_data = zavod_data.rename(columns={
